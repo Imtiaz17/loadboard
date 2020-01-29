@@ -1,0 +1,202 @@
+.navbar {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
+}
+
+a {
+    text-decoration: none !important;
+}
+.dialog
+{
+background-color: hsla(0, 0%, 4%, 0.63) !important;
+}
+.b-tabs .tab-content
+{
+    padding: 0rem !important;
+    padding-left: 0.1rem;
+}
+.tabs li {
+    width: 16.66666666666667%;
+}
+body {
+    background-color: #F4F6FB;
+    min-height: 100vh !important;
+}
+
+@media only screen and (min-width: 1216px) {
+.container {
+    max-width: 1244px !important;
+}
+}
+@media only screen and (min-width: 1024px) {
+.navbar {
+    max-height: 60px;
+}
+}
+.navbar {
+    padding: 0rem 0rem;
+}
+.field-placeholder {
+    font-size: 13px;
+    position: absolute;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    left: 0px;
+    z-index: 1;
+    color: #5c5e61;
+    text-align: left;
+    width: 100%;
+    -webkit-transform: scale(.75) translateY(-61px) translateX(-13px);
+    transform: scale(.75) translateY(-61px) translateX(-13px)
+}
+input.input {
+    color: #5c5e61 !important;
+}
+#DatePicker-input, #DateTimePicker-input{
+    color: #5c5e61 !important;
+}
+.column-placeholder {
+    font-size: 14px;
+    position: absolute;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    left: 0px;
+    z-index: 1;
+    color: #80868b;
+    text-align: left;
+    width: 100%;
+    -webkit-transform: scale(.75) translateY(-56px) translateX(-16px);
+    transform: scale(.75) translateY(-56px) translateX(-16px)
+}
+
+.select-placeholder {
+    font-size: 13px;
+    position: absolute;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    left: 0px;
+    z-index: 1;
+    color: #5c5e61;
+    text-align: left;
+    width: 100%;
+    -webkit-transform: scale(.75) translateY(-67px) translateX(-13px);
+    transform: scale(.75) translateY(-67px) translateX(-13px)
+}
+
+.field-placeholder span {
+    background: #fff;
+    padding: 0px 5px;
+    font-size: 1.2em;
+}
+
+.column-placeholder span {
+    background: #fff;
+    padding: 0px 5px;
+    font-size: 1.2em;
+}
+
+.select-placeholder span {
+    background: #fff;
+    padding: 0px 5px;
+    font-size: 1.15em;
+}
+
+.input:focus .field-placeholder {
+    color: #1867C0 !important;
+}
+.invalid-feedback {
+    display: block;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 0.75rem !important;
+    color: #ff3860 !important;
+}
+.input:focus {
+    border-color: #1867C0!important;
+}
+.textarea:focus {
+    border-color: #1867C0!important;
+}
+.control .select select:focus {
+    border-color: #1867C0!important;
+}
+.field-placeholder:focus {
+    color: #1867C0 !important;
+}
+
+/*.input {
+    font-size: 0.9rem !important;
+     height: 2.1em !important;
+}*/
+.select {
+    width: 100%;
+    display: inline-block;
+    max-width: 100%;
+    position: relative;
+    vertical-align: top;
+}
+.select select {
+    width: 100%;
+    text-rendering: auto !important;
+    padding-right: 2.5em;
+    color: #5c5e61 !important;
+}
+
+.textarea {
+    font-size: 0.9rem !important;
+}
+.vdatetime-input
+{
+    width: 100%;
+    border:none;
+    background: transparent !important;
+}
+.b-table .table th
+{
+    font-size: 14px;
+}
+.table td
+{
+    font-size: 14px;
+}
+span
+{
+    font-size: 1em;
+    line-height: 2em;
+}
+.bold
+{
+    font-weight: 600;
+    font-size:1rem
+    color: #27282ad6;
+}
+.navbar-dropdown
+{
+    margin-left: -20px;
+}
+.card-element{
+    padding:1rem;
+}
+.datetimepicker .datepicker .pickers-container
+{
+    z-index: 9999!important;
+}
+.field.sm .field-input
+{
+    min-height:2.1em !important;
+    font-size: 13px !important;
+}
+.dropdown-menu {
+    display: none;
+    left: -75px !important;
+    min-width: 115px !important;
+    max-width: 116px !important;
+    padding-top: 4px;
+    position: absolute;
+    top:100%;
+    z-index: 20;
+}
+.dropdown-trigger
+{
+     cursor: pointer;
+    margin-right: 13px;
+}
