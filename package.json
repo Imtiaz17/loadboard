@@ -26,7 +26,7 @@
     "dependencies": {
         "buefy": "^0.8.8",
         "js-cookie": "^2.2.1",
-        "luxon": "^1.21.3",
+        "luxon": "^1.28.1",
         "vee-validate": "^2.2.11",
         "vue-ctk-date-time-picker": "^2.4.0",
         "vue-datetime": "^1.0.0-beta.11",
